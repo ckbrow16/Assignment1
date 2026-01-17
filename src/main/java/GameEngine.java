@@ -4,7 +4,9 @@ public class GameEngine {
     private int target;
     private int attempts;
     private boolean gameWon;
+    private boolean gameOver;
     private boolean userQuit;
+    private final int MAX_ATTEMPTS = 5;
 
     public GameEngine(int min, int max) {
         this.min = min;
